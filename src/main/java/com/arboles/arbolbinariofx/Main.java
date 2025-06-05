@@ -25,7 +25,9 @@ public class Main extends Application {
 
         Scene scene = new Scene(root, canvasWidth, canvasHeight);
 
-        /*arbol.insertar(9);
+        /*
+        Datos iniciales
+        arbol.insertar(9);
         arbol.insertar(4);
         arbol.insertar(85);
         arbol.insertar(7);
@@ -41,7 +43,7 @@ public class Main extends Application {
         arbol.insertar(39);
 
 
-        // Datos en el orden del árbol binario completo
+        // Datos del nuevo arbol binario construyendo matrices
         int[] datos = {
                 97, 88, 95, 66, 55, 95, 48, 66, 35, 48, 55, 62, 77, 25, 38, 18, 40, 30, 26, 24
         };
@@ -67,6 +69,7 @@ public class Main extends Application {
         matriz[9][19] = 1;  // 48 -> 24
 
         arbol.construirDesdeMatrizConDatos(matriz,datos);
+
 */
         arbol.insertar(97);
         arbol.insertar(88);
